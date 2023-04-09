@@ -26,7 +26,7 @@ function Allmeetups() {
         })
     },[])
 
-console.log(loadedMeetups)
+
 
     if (loading) {
         <section>
