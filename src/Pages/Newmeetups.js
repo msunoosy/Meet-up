@@ -11,7 +11,7 @@ const addMeetupHandler=(meetupData)=>{
         method:'POST',
         body:JSON.stringify(meetupData)
     }).then(()=>{
-        history.replace('/')
+        history.replace('/ ')
     })
 
 }
